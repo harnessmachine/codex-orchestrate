@@ -1,0 +1,7 @@
+interface:
+  display_name: "Orchestrate"
+  short_description: "Delegate work and verify the result"
+  default_prompt: "Use $orchestrate to delegate bounded work to subagents, parallelize independent tasks, and verify the integrated result. Keep coordination in native messages instead of creating bookkeeping files."
+
+policy:
+  allow_implicit_invocation: true
